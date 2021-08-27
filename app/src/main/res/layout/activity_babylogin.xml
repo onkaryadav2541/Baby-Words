@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greycol"
+    tools:context=".Babylogin">
+
+    <ImageView
+        android:paddingTop="20dp"
+        android:layout_width="310dp"
+        android:layout_height="187dp"
+        android:layout_gravity="center"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/loginscrn"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/dance"
+        android:text="Login"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/fstTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Email"/>
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10" />
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/txtPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="textPassword"
+        android:hint="10character"
+        android:ems="10" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Login"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/dance"
+        android:id="@+id/lnkRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="New to Baby words? Register here"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

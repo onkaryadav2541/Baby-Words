@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/logb">
+
+
+    <ImageButton
+        android:id="@+id/imagenumbtn"
+        android:layout_width="383dp"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="326dp"
+        android:background="?android:selectableItemBackground"
+        app:srcCompat="@drawable/numberplate" />
+
+    <ImageButton
+        android:id="@+id/imagealphbtn"
+        android:layout_width="383dp"
+        android:layout_height="175dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="191dp"
+        android:background="?android:selectableItemBackground"
+        app:srcCompat="@drawable/alphaplate" />
+
+    <ImageButton
+        android:id="@+id/imagenurbtn"
+        android:layout_width="387dp"
+        android:layout_height="171dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="60dp"
+        android:background="?android:selectableItemBackground"
+        app:srcCompat="@drawable/nurceryplate" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="13dp"
+        android:text="Logout"
+        android:backgroundTint="@color/black"/>
+
+
+
+
+</RelativeLayout>

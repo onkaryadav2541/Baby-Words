@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Baby Words</string>
+    <string name="kendrick">Kendrick</string>
+    <string name="already_have_an_account">Already have an account register?</string>
+</resources>
